@@ -1,0 +1,1425 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 477,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 28,
+      "column": 3
+    }
+  },
+  "errors": [],
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 477,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 28,
+        "column": 3
+      }
+    },
+    "sourceType": "module",
+    "interpreter": null,
+    "body": [
+      {
+        "type": "ExpressionStatement",
+        "start": 0,
+        "end": 477,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 28,
+            "column": 3
+          }
+        },
+        "expression": {
+          "type": "CallExpression",
+          "start": 0,
+          "end": 476,
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 28,
+              "column": 2
+            }
+          },
+          "callee": {
+            "type": "Identifier",
+            "start": 0,
+            "end": 8,
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 8
+              },
+              "identifierName": "describe"
+            },
+            "name": "describe"
+          },
+          "arguments": [
+            {
+              "type": "StringLiteral",
+              "start": 9,
+              "end": 34,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 9
+                },
+                "end": {
+                  "line": 1,
+                  "column": 34
+                }
+              },
+              "extra": {
+                "rawValue": "simple.html：常规检查-普通静态页面",
+                "raw": "'simple.html：常规检查-普通静态页面'"
+              },
+              "value": "simple.html：常规检查-普通静态页面"
+            },
+            {
+              "type": "FunctionExpression",
+              "start": 36,
+              "end": 437,
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 36
+                },
+                "end": {
+                  "line": 25,
+                  "column": 1
+                }
+              },
+              "id": null,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 48,
+                "end": 437,
+                "loc": {
+                  "start": {
+                    "line": 1,
+                    "column": 48
+                  },
+                  "end": {
+                    "line": 25,
+                    "column": 1
+                  }
+                },
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 52,
+                    "end": 250,
+                    "loc": {
+                      "start": {
+                        "line": 2,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 5
+                      }
+                    },
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 52,
+                      "end": 249,
+                      "loc": {
+                        "start": {
+                          "line": 2,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 13,
+                          "column": 4
+                        }
+                      },
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 52,
+                        "end": 60,
+                        "loc": {
+                          "start": {
+                            "line": 2,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 10
+                          },
+                          "identifierName": "describe"
+                        },
+                        "name": "describe"
+                      },
+                      "arguments": [
+                        {
+                          "type": "StringLiteral",
+                          "start": 61,
+                          "end": 69,
+                          "loc": {
+                            "start": {
+                              "line": 2,
+                              "column": 11
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 19
+                            }
+                          },
+                          "extra": {
+                            "rawValue": "检查基本信息",
+                            "raw": "'检查基本信息'"
+                          },
+                          "value": "检查基本信息"
+                        },
+                        {
+                          "type": "FunctionExpression",
+                          "start": 71,
+                          "end": 222,
+                          "loc": {
+                            "start": {
+                              "line": 2,
+                              "column": 21
+                            },
+                            "end": {
+                              "line": 11,
+                              "column": 3
+                            }
+                          },
+                          "id": null,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 83,
+                            "end": 222,
+                            "loc": {
+                              "start": {
+                                "line": 2,
+                                "column": 33
+                              },
+                              "end": {
+                                "line": 11,
+                                "column": 3
+                              }
+                            },
+                            "body": [
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 93,
+                                "end": 108,
+                                "loc": {
+                                  "start": {
+                                    "line": 4,
+                                    "column": 4
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 19
+                                  }
+                                },
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "start": 93,
+                                  "end": 107,
+                                  "loc": {
+                                    "start": {
+                                      "line": 4,
+                                      "column": 4
+                                    },
+                                    "end": {
+                                      "line": 4,
+                                      "column": 18
+                                    }
+                                  },
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 93,
+                                    "end": 95,
+                                    "loc": {
+                                      "start": {
+                                        "line": 4,
+                                        "column": 4
+                                      },
+                                      "end": {
+                                        "line": 4,
+                                        "column": 6
+                                      },
+                                      "identifierName": "it"
+                                    },
+                                    "name": "it"
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "StringLiteral",
+                                      "start": 96,
+                                      "end": 106,
+                                      "loc": {
+                                        "start": {
+                                          "line": 4,
+                                          "column": 7
+                                        },
+                                        "end": {
+                                          "line": 4,
+                                          "column": 17
+                                        }
+                                      },
+                                      "extra": {
+                                        "rawValue": "顶层图片检查通过",
+                                        "raw": "'顶层图片检查通过'"
+                                      },
+                                      "value": "顶层图片检查通过"
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 113,
+                                "end": 178,
+                                "loc": {
+                                  "start": {
+                                    "line": 5,
+                                    "column": 4
+                                  },
+                                  "end": {
+                                    "line": 8,
+                                    "column": 7
+                                  }
+                                },
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "start": 113,
+                                  "end": 177,
+                                  "loc": {
+                                    "start": {
+                                      "line": 5,
+                                      "column": 4
+                                    },
+                                    "end": {
+                                      "line": 8,
+                                      "column": 6
+                                    }
+                                  },
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 113,
+                                    "end": 115,
+                                    "loc": {
+                                      "start": {
+                                        "line": 5,
+                                        "column": 4
+                                      },
+                                      "end": {
+                                        "line": 5,
+                                        "column": 6
+                                      },
+                                      "identifierName": "it"
+                                    },
+                                    "name": "it"
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "StringLiteral",
+                                      "start": 116,
+                                      "end": 126,
+                                      "loc": {
+                                        "start": {
+                                          "line": 5,
+                                          "column": 7
+                                        },
+                                        "end": {
+                                          "line": 5,
+                                          "column": 17
+                                        }
+                                      },
+                                      "extra": {
+                                        "rawValue": "规则文案检查通过",
+                                        "raw": "'规则文案检查通过'"
+                                      },
+                                      "value": "规则文案检查通过"
+                                    },
+                                    {
+                                      "type": "ObjectExpression",
+                                      "start": 128,
+                                      "end": 176,
+                                      "loc": {
+                                        "start": {
+                                          "line": 5,
+                                          "column": 19
+                                        },
+                                        "end": {
+                                          "line": 8,
+                                          "column": 5
+                                        }
+                                      },
+                                      "properties": [
+                                        {
+                                          "type": "ObjectProperty",
+                                          "start": 136,
+                                          "end": 150,
+                                          "loc": {
+                                            "start": {
+                                              "line": 6,
+                                              "column": 6
+                                            },
+                                            "end": {
+                                              "line": 6,
+                                              "column": 20
+                                            }
+                                          },
+                                          "method": false,
+                                          "key": {
+                                            "type": "Identifier",
+                                            "start": 136,
+                                            "end": 142,
+                                            "loc": {
+                                              "start": {
+                                                "line": 6,
+                                                "column": 6
+                                              },
+                                              "end": {
+                                                "line": 6,
+                                                "column": 12
+                                              },
+                                              "identifierName": "author"
+                                            },
+                                            "name": "author"
+                                          },
+                                          "computed": false,
+                                          "shorthand": false,
+                                          "value": {
+                                            "type": "StringLiteral",
+                                            "start": 144,
+                                            "end": 150,
+                                            "loc": {
+                                              "start": {
+                                                "line": 6,
+                                                "column": 14
+                                              },
+                                              "end": {
+                                                "line": 6,
+                                                "column": 20
+                                              }
+                                            },
+                                            "extra": {
+                                              "rawValue": "小阳同学",
+                                              "raw": "'小阳同学'"
+                                            },
+                                            "value": "小阳同学"
+                                          }
+                                        },
+                                        {
+                                          "type": "ObjectProperty",
+                                          "start": 158,
+                                          "end": 170,
+                                          "loc": {
+                                            "start": {
+                                              "line": 7,
+                                              "column": 6
+                                            },
+                                            "end": {
+                                              "line": 7,
+                                              "column": 18
+                                            }
+                                          },
+                                          "method": false,
+                                          "key": {
+                                            "type": "Identifier",
+                                            "start": 158,
+                                            "end": 164,
+                                            "loc": {
+                                              "start": {
+                                                "line": 7,
+                                                "column": 6
+                                              },
+                                              "end": {
+                                                "line": 7,
+                                                "column": 12
+                                              },
+                                              "identifierName": "plevel"
+                                            },
+                                            "name": "plevel"
+                                          },
+                                          "computed": false,
+                                          "shorthand": false,
+                                          "value": {
+                                            "type": "StringLiteral",
+                                            "start": 166,
+                                            "end": 170,
+                                            "loc": {
+                                              "start": {
+                                                "line": 7,
+                                                "column": 14
+                                              },
+                                              "end": {
+                                                "line": 7,
+                                                "column": 18
+                                              }
+                                            },
+                                            "extra": {
+                                              "rawValue": "p1",
+                                              "raw": "'p1'"
+                                            },
+                                            "value": "p1"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 183,
+                                "end": 198,
+                                "loc": {
+                                  "start": {
+                                    "line": 9,
+                                    "column": 4
+                                  },
+                                  "end": {
+                                    "line": 9,
+                                    "column": 19
+                                  }
+                                },
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "start": 183,
+                                  "end": 197,
+                                  "loc": {
+                                    "start": {
+                                      "line": 9,
+                                      "column": 4
+                                    },
+                                    "end": {
+                                      "line": 9,
+                                      "column": 18
+                                    }
+                                  },
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 183,
+                                    "end": 185,
+                                    "loc": {
+                                      "start": {
+                                        "line": 9,
+                                        "column": 4
+                                      },
+                                      "end": {
+                                        "line": 9,
+                                        "column": 6
+                                      },
+                                      "identifierName": "it"
+                                    },
+                                    "name": "it"
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "StringLiteral",
+                                      "start": 186,
+                                      "end": 196,
+                                      "loc": {
+                                        "start": {
+                                          "line": 9,
+                                          "column": 7
+                                        },
+                                        "end": {
+                                          "line": 9,
+                                          "column": 17
+                                        }
+                                      },
+                                      "extra": {
+                                        "rawValue": "按钮样式检查通过",
+                                        "raw": "'按钮样式检查通过'"
+                                      },
+                                      "value": "按钮样式检查通过"
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 203,
+                                "end": 218,
+                                "loc": {
+                                  "start": {
+                                    "line": 10,
+                                    "column": 4
+                                  },
+                                  "end": {
+                                    "line": 10,
+                                    "column": 19
+                                  }
+                                },
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "start": 203,
+                                  "end": 217,
+                                  "loc": {
+                                    "start": {
+                                      "line": 10,
+                                      "column": 4
+                                    },
+                                    "end": {
+                                      "line": 10,
+                                      "column": 18
+                                    }
+                                  },
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 203,
+                                    "end": 205,
+                                    "loc": {
+                                      "start": {
+                                        "line": 10,
+                                        "column": 4
+                                      },
+                                      "end": {
+                                        "line": 10,
+                                        "column": 6
+                                      },
+                                      "identifierName": "it"
+                                    },
+                                    "name": "it"
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "StringLiteral",
+                                      "start": 206,
+                                      "end": 216,
+                                      "loc": {
+                                        "start": {
+                                          "line": 10,
+                                          "column": 7
+                                        },
+                                        "end": {
+                                          "line": 10,
+                                          "column": 17
+                                        }
+                                      },
+                                      "extra": {
+                                        "rawValue": "文字单行检查通过",
+                                        "raw": "'文字单行检查通过'"
+                                      },
+                                      "value": "文字单行检查通过"
+                                    }
+                                  ]
+                                }
+                              }
+                            ],
+                            "directives": []
+                          }
+                        },
+                        {
+                          "type": "ObjectExpression",
+                          "start": 224,
+                          "end": 248,
+                          "loc": {
+                            "start": {
+                              "line": 11,
+                              "column": 5
+                            },
+                            "end": {
+                              "line": 13,
+                              "column": 3
+                            }
+                          },
+                          "properties": [
+                            {
+                              "type": "ObjectProperty",
+                              "start": 230,
+                              "end": 244,
+                              "loc": {
+                                "start": {
+                                  "line": 12,
+                                  "column": 4
+                                },
+                                "end": {
+                                  "line": 12,
+                                  "column": 18
+                                }
+                              },
+                              "method": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 230,
+                                "end": 236,
+                                "loc": {
+                                  "start": {
+                                    "line": 12,
+                                    "column": 4
+                                  },
+                                  "end": {
+                                    "line": 12,
+                                    "column": 10
+                                  },
+                                  "identifierName": "author"
+                                },
+                                "name": "author"
+                              },
+                              "computed": false,
+                              "shorthand": false,
+                              "value": {
+                                "type": "StringLiteral",
+                                "start": 238,
+                                "end": 244,
+                                "loc": {
+                                  "start": {
+                                    "line": 12,
+                                    "column": 12
+                                  },
+                                  "end": {
+                                    "line": 12,
+                                    "column": 18
+                                  }
+                                },
+                                "extra": {
+                                  "rawValue": "小张同学",
+                                  "raw": "'小张同学'"
+                                },
+                                "value": "小张同学"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 253,
+                    "end": 435,
+                    "loc": {
+                      "start": {
+                        "line": 14,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 24,
+                        "column": 5
+                      }
+                    },
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 253,
+                      "end": 434,
+                      "loc": {
+                        "start": {
+                          "line": 14,
+                          "column": 2
+                        },
+                        "end": {
+                          "line": 24,
+                          "column": 4
+                        }
+                      },
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 253,
+                        "end": 261,
+                        "loc": {
+                          "start": {
+                            "line": 14,
+                            "column": 2
+                          },
+                          "end": {
+                            "line": 14,
+                            "column": 10
+                          },
+                          "identifierName": "describe"
+                        },
+                        "name": "describe"
+                      },
+                      "arguments": [
+                        {
+                          "type": "StringLiteral",
+                          "start": 262,
+                          "end": 270,
+                          "loc": {
+                            "start": {
+                              "line": 14,
+                              "column": 11
+                            },
+                            "end": {
+                              "line": 14,
+                              "column": 19
+                            }
+                          },
+                          "extra": {
+                            "rawValue": "检查基本方法",
+                            "raw": "'检查基本方法'"
+                          },
+                          "value": "检查基本方法"
+                        },
+                        {
+                          "type": "FunctionExpression",
+                          "start": 272,
+                          "end": 407,
+                          "loc": {
+                            "start": {
+                              "line": 14,
+                              "column": 21
+                            },
+                            "end": {
+                              "line": 22,
+                              "column": 3
+                            }
+                          },
+                          "id": null,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 284,
+                            "end": 407,
+                            "loc": {
+                              "start": {
+                                "line": 14,
+                                "column": 33
+                              },
+                              "end": {
+                                "line": 22,
+                                "column": 3
+                              }
+                            },
+                            "body": [
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 290,
+                                "end": 299,
+                                "loc": {
+                                  "start": {
+                                    "line": 15,
+                                    "column": 4
+                                  },
+                                  "end": {
+                                    "line": 15,
+                                    "column": 13
+                                  }
+                                },
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "start": 290,
+                                  "end": 298,
+                                  "loc": {
+                                    "start": {
+                                      "line": 15,
+                                      "column": 4
+                                    },
+                                    "end": {
+                                      "line": 15,
+                                      "column": 12
+                                    }
+                                  },
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 290,
+                                    "end": 296,
+                                    "loc": {
+                                      "start": {
+                                        "line": 15,
+                                        "column": 4
+                                      },
+                                      "end": {
+                                        "line": 15,
+                                        "column": 10
+                                      },
+                                      "identifierName": "before"
+                                    },
+                                    "name": "before"
+                                  },
+                                  "arguments": []
+                                }
+                              },
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 304,
+                                "end": 316,
+                                "loc": {
+                                  "start": {
+                                    "line": 16,
+                                    "column": 4
+                                  },
+                                  "end": {
+                                    "line": 16,
+                                    "column": 16
+                                  }
+                                },
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "start": 304,
+                                  "end": 315,
+                                  "loc": {
+                                    "start": {
+                                      "line": 16,
+                                      "column": 4
+                                    },
+                                    "end": {
+                                      "line": 16,
+                                      "column": 15
+                                    }
+                                  },
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 304,
+                                    "end": 306,
+                                    "loc": {
+                                      "start": {
+                                        "line": 16,
+                                        "column": 4
+                                      },
+                                      "end": {
+                                        "line": 16,
+                                        "column": 6
+                                      },
+                                      "identifierName": "it"
+                                    },
+                                    "name": "it"
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "StringLiteral",
+                                      "start": 307,
+                                      "end": 314,
+                                      "loc": {
+                                        "start": {
+                                          "line": 16,
+                                          "column": 7
+                                        },
+                                        "end": {
+                                          "line": 16,
+                                          "column": 14
+                                        }
+                                      },
+                                      "extra": {
+                                        "rawValue": "方法1通过",
+                                        "raw": "'方法1通过'"
+                                      },
+                                      "value": "方法1通过"
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 321,
+                                "end": 365,
+                                "loc": {
+                                  "start": {
+                                    "line": 17,
+                                    "column": 4
+                                  },
+                                  "end": {
+                                    "line": 19,
+                                    "column": 7
+                                  }
+                                },
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "start": 321,
+                                  "end": 364,
+                                  "loc": {
+                                    "start": {
+                                      "line": 17,
+                                      "column": 4
+                                    },
+                                    "end": {
+                                      "line": 19,
+                                      "column": 6
+                                    }
+                                  },
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 321,
+                                    "end": 323,
+                                    "loc": {
+                                      "start": {
+                                        "line": 17,
+                                        "column": 4
+                                      },
+                                      "end": {
+                                        "line": 17,
+                                        "column": 6
+                                      },
+                                      "identifierName": "it"
+                                    },
+                                    "name": "it"
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "StringLiteral",
+                                      "start": 324,
+                                      "end": 333,
+                                      "loc": {
+                                        "start": {
+                                          "line": 17,
+                                          "column": 7
+                                        },
+                                        "end": {
+                                          "line": 17,
+                                          "column": 16
+                                        }
+                                      },
+                                      "extra": {
+                                        "rawValue": "方法2检查通过",
+                                        "raw": "'方法2检查通过'"
+                                      },
+                                      "value": "方法2检查通过"
+                                    },
+                                    {
+                                      "type": "ObjectExpression",
+                                      "start": 335,
+                                      "end": 363,
+                                      "loc": {
+                                        "start": {
+                                          "line": 17,
+                                          "column": 18
+                                        },
+                                        "end": {
+                                          "line": 19,
+                                          "column": 5
+                                        }
+                                      },
+                                      "properties": [
+                                        {
+                                          "type": "ObjectProperty",
+                                          "start": 343,
+                                          "end": 357,
+                                          "loc": {
+                                            "start": {
+                                              "line": 18,
+                                              "column": 6
+                                            },
+                                            "end": {
+                                              "line": 18,
+                                              "column": 20
+                                            }
+                                          },
+                                          "method": false,
+                                          "key": {
+                                            "type": "Identifier",
+                                            "start": 343,
+                                            "end": 349,
+                                            "loc": {
+                                              "start": {
+                                                "line": 18,
+                                                "column": 6
+                                              },
+                                              "end": {
+                                                "line": 18,
+                                                "column": 12
+                                              },
+                                              "identifierName": "author"
+                                            },
+                                            "name": "author"
+                                          },
+                                          "computed": false,
+                                          "shorthand": false,
+                                          "value": {
+                                            "type": "StringLiteral",
+                                            "start": 351,
+                                            "end": 357,
+                                            "loc": {
+                                              "start": {
+                                                "line": 18,
+                                                "column": 14
+                                              },
+                                              "end": {
+                                                "line": 18,
+                                                "column": 20
+                                              }
+                                            },
+                                            "extra": {
+                                              "rawValue": "小阳同学",
+                                              "raw": "'小阳同学'"
+                                            },
+                                            "value": "小阳同学"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 370,
+                                "end": 384,
+                                "loc": {
+                                  "start": {
+                                    "line": 20,
+                                    "column": 4
+                                  },
+                                  "end": {
+                                    "line": 20,
+                                    "column": 18
+                                  }
+                                },
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "start": 370,
+                                  "end": 383,
+                                  "loc": {
+                                    "start": {
+                                      "line": 20,
+                                      "column": 4
+                                    },
+                                    "end": {
+                                      "line": 20,
+                                      "column": 17
+                                    }
+                                  },
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 370,
+                                    "end": 372,
+                                    "loc": {
+                                      "start": {
+                                        "line": 20,
+                                        "column": 4
+                                      },
+                                      "end": {
+                                        "line": 20,
+                                        "column": 6
+                                      },
+                                      "identifierName": "it"
+                                    },
+                                    "name": "it"
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "StringLiteral",
+                                      "start": 373,
+                                      "end": 382,
+                                      "loc": {
+                                        "start": {
+                                          "line": 20,
+                                          "column": 7
+                                        },
+                                        "end": {
+                                          "line": 20,
+                                          "column": 16
+                                        }
+                                      },
+                                      "extra": {
+                                        "rawValue": "方法3检查通过",
+                                        "raw": "'方法3检查通过'"
+                                      },
+                                      "value": "方法3检查通过"
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 389,
+                                "end": 403,
+                                "loc": {
+                                  "start": {
+                                    "line": 21,
+                                    "column": 4
+                                  },
+                                  "end": {
+                                    "line": 21,
+                                    "column": 18
+                                  }
+                                },
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "start": 389,
+                                  "end": 402,
+                                  "loc": {
+                                    "start": {
+                                      "line": 21,
+                                      "column": 4
+                                    },
+                                    "end": {
+                                      "line": 21,
+                                      "column": 17
+                                    }
+                                  },
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 389,
+                                    "end": 391,
+                                    "loc": {
+                                      "start": {
+                                        "line": 21,
+                                        "column": 4
+                                      },
+                                      "end": {
+                                        "line": 21,
+                                        "column": 6
+                                      },
+                                      "identifierName": "it"
+                                    },
+                                    "name": "it"
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "StringLiteral",
+                                      "start": 392,
+                                      "end": 401,
+                                      "loc": {
+                                        "start": {
+                                          "line": 21,
+                                          "column": 7
+                                        },
+                                        "end": {
+                                          "line": 21,
+                                          "column": 16
+                                        }
+                                      },
+                                      "extra": {
+                                        "rawValue": "方法4检查通过",
+                                        "raw": "'方法4检查通过'"
+                                      },
+                                      "value": "方法4检查通过"
+                                    }
+                                  ]
+                                }
+                              }
+                            ],
+                            "directives": []
+                          }
+                        },
+                        {
+                          "type": "ObjectExpression",
+                          "start": 409,
+                          "end": 433,
+                          "loc": {
+                            "start": {
+                              "line": 22,
+                              "column": 5
+                            },
+                            "end": {
+                              "line": 24,
+                              "column": 3
+                            }
+                          },
+                          "properties": [
+                            {
+                              "type": "ObjectProperty",
+                              "start": 415,
+                              "end": 429,
+                              "loc": {
+                                "start": {
+                                  "line": 23,
+                                  "column": 4
+                                },
+                                "end": {
+                                  "line": 23,
+                                  "column": 18
+                                }
+                              },
+                              "method": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 415,
+                                "end": 421,
+                                "loc": {
+                                  "start": {
+                                    "line": 23,
+                                    "column": 4
+                                  },
+                                  "end": {
+                                    "line": 23,
+                                    "column": 10
+                                  },
+                                  "identifierName": "author"
+                                },
+                                "name": "author"
+                              },
+                              "computed": false,
+                              "shorthand": false,
+                              "value": {
+                                "type": "StringLiteral",
+                                "start": 423,
+                                "end": 429,
+                                "loc": {
+                                  "start": {
+                                    "line": 23,
+                                    "column": 12
+                                  },
+                                  "end": {
+                                    "line": 23,
+                                    "column": 18
+                                  }
+                                },
+                                "extra": {
+                                  "rawValue": "小张同学",
+                                  "raw": "'小张同学'"
+                                },
+                                "value": "小张同学"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "directives": []
+              }
+            },
+            {
+              "type": "ObjectExpression",
+              "start": 439,
+              "end": 475,
+              "loc": {
+                "start": {
+                  "line": 25,
+                  "column": 3
+                },
+                "end": {
+                  "line": 28,
+                  "column": 1
+                }
+              },
+              "properties": [
+                {
+                  "type": "ObjectProperty",
+                  "start": 443,
+                  "end": 457,
+                  "loc": {
+                    "start": {
+                      "line": 26,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 26,
+                      "column": 16
+                    }
+                  },
+                  "method": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 443,
+                    "end": 449,
+                    "loc": {
+                      "start": {
+                        "line": 26,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 26,
+                        "column": 8
+                      },
+                      "identifierName": "author"
+                    },
+                    "name": "author"
+                  },
+                  "computed": false,
+                  "shorthand": false,
+                  "value": {
+                    "type": "StringLiteral",
+                    "start": 451,
+                    "end": 457,
+                    "loc": {
+                      "start": {
+                        "line": 26,
+                        "column": 10
+                      },
+                      "end": {
+                        "line": 26,
+                        "column": 16
+                      }
+                    },
+                    "extra": {
+                      "rawValue": "小宁同学",
+                      "raw": "'小宁同学'"
+                    },
+                    "value": "小宁同学"
+                  }
+                },
+                {
+                  "type": "ObjectProperty",
+                  "start": 461,
+                  "end": 473,
+                  "loc": {
+                    "start": {
+                      "line": 27,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 27,
+                      "column": 14
+                    }
+                  },
+                  "method": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 461,
+                    "end": 467,
+                    "loc": {
+                      "start": {
+                        "line": 27,
+                        "column": 2
+                      },
+                      "end": {
+                        "line": 27,
+                        "column": 8
+                      },
+                      "identifierName": "plevel"
+                    },
+                    "name": "plevel"
+                  },
+                  "computed": false,
+                  "shorthand": false,
+                  "value": {
+                    "type": "StringLiteral",
+                    "start": 469,
+                    "end": 473,
+                    "loc": {
+                      "start": {
+                        "line": 27,
+                        "column": 10
+                      },
+                      "end": {
+                        "line": 27,
+                        "column": 14
+                      }
+                    },
+                    "extra": {
+                      "rawValue": "p0",
+                      "raw": "'p0'"
+                    },
+                    "value": "p0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "directives": []
+  },
+  "comments": []
+}
