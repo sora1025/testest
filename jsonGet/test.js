@@ -9,7 +9,6 @@ const TransferRaw = function (body) {
 
   body.map((item,index) => {  
     let res = {};
-    let suites = [];
     let title = item.expression.arguments[0] || '';
     let fnBody, desObj;
 
@@ -34,17 +33,18 @@ const TransferRaw = function (body) {
     }
     suites.push(res);
 
+
+    //如果fnBody存在，就应该有suites字段，该字段为res数组，应该在递归后添加
     if(fnBody) {
-      console.log(suites)
-      TransferRaw(fnBody.body.body)
+      // res['suites'] = suites;
+      // TransferRaw(fnBody.body.body)
+      res['suites'] = TransferRaw(fnBody.body.body)
+      // console.log(res);
+      
     }
     
   })
-
-  result['suites'] = suites
-
-  return result;
-  
+  return suites;
   
 }
 // TransferRaw(body)
